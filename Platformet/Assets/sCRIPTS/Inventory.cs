@@ -8,7 +8,7 @@ public class Inventory : MonoBehaviour
 
     #region Singleton
 
-    public int space = 20;
+    public int space = 9;
     public static Inventory instance;
     
     private void Awake()
